@@ -1,0 +1,40 @@
+body{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+/* Entête début */
+
+.Entete {
+    background :light grey;
+
+}
+
+.Titre_site {
+
+}
+
+.Soustitre_site {
+
+}
+
+/* Fin entête */
+
+.Projets_groupe{
+
+}
+
+.Projet{
+
+}
+
+.Projet_titre{
+
+}
+
+.Projet_image{
+
+}
