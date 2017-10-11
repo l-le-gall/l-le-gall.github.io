@@ -60,7 +60,7 @@ margin-bottom: 10px;
 /* Fin entête */
 
 .Projets_groupe{
-max-width: 400px;
+max-width: 300px;
 max-height: auto;
 
 margin: auto;
@@ -79,7 +79,24 @@ left: 50px;
 margin: auto;
 
 
+}
 
+.Projets_photos_groupe{
+  max-width: 400px;
+  max-height: auto;
+
+  margin: auto;
+  margin-right: 200px;
+
+  flex-direction: column;
+
+}
+
+.Projet_photos{
+box-sizing: 30%;
+left: 50px;
+
+margin: auto;
 }
 
 .Projet_titre{
