@@ -13,9 +13,45 @@ img {
 
 }
 
-.Titre_site {
+.Bandeau_onglet_gauche {
+    max-height: 500px;
+    top: 300px;
+    position: fixed;
+    left: 50px;
+
+
 
 }
+
+.Logo {
+  position: fixed;
+
+  width: 150px;
+  top: 60px;
+  left: 50px;
+
+  z-index: 1;
+
+}
+
+.Onglet {
+
+max-width: 150px;
+max-height: 50px;
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+margin-bottom: 10px;
+
+
+  }
+
+.Titre_site {
+
+  }
+
 
 .Soustitre_site {
 
@@ -24,10 +60,25 @@ img {
 /* Fin entête */
 
 .Projets_groupe{
+max-width: 400px;
+max-height: auto;
+
+margin: auto;
+margin-right: 200px;
+
+flex-direction: column;
+
 
 }
 
+
 .Projet{
+box-sizing: 30%;
+left: 50px;
+
+margin: auto;
+
+
 
 }
 
