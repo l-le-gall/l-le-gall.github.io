@@ -1,5 +1,9 @@
+html * {
+  box-sizing: border-box;
+}
+
 body{
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Alegreya', sans-serif;
 }
 
 img {
@@ -18,8 +22,6 @@ img {
     top: 300px;
     position: fixed;
     left: 50px;
-
-
 
 }
 
@@ -41,45 +43,56 @@ max-height: 50px;
 
 display: flex;
 flex-direction: column;
-flex-wrap: wrap;
 
 margin-bottom: 10px;
 
-
   }
 
-.Titre_site {
-
-  }
-
-
-.Soustitre_site {
-
-}
 
 /* Fin entête */
 
-.Projets_groupe{
-max-width: 300px;
-max-height: auto;
+/* Mise en page colonnes de photo page index*/
 
-margin: auto;
-margin-right: 200px;
-
-flex-direction: column;
-
-
+.Projets_groupe {
+  max-height: auto;
+  margin: auto;
+  margin-left: 300px;
+  margin-right: 150px;
+  display: flex;
+  font-size: 0;
 }
 
-
-.Projet{
-box-sizing: 30%;
-left: 50px;
-
-margin: auto;
-
-
+.col {
+  width: 33%;
+  margin: 0 8px;
 }
+
+.Projet {
+  margin-bottom:16px;
+}
+
+.cadre {
+  position: relative;
+  max-width: 400px;
+  max-height: auto;
+}
+
+.cadre p {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  position: absolute;
+top: 50%;
+padding: 8px 32px;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 100%;
+text-align: center;
+color: #ed464d;
+margin: 0;
+}
+
+/* Fin des commandes pour la page index*/
 
 .Projets_photos_groupe{
   max-width: 400px;
@@ -100,20 +113,68 @@ margin: auto;
 }
 
 <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i');
+</style>
+
+.Bloc_image_projet{
+  width: 25%;
+  margin: 0 8px;
+
+  box-sizing: 30%;
+  left: 50px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.projet{
+  box-sizing: 30%;
+  left: 50px;
+  position: relative;
+
+}
+
+.Bloc_description_projet{
+  width: 25%;
+  margin: 0 8px;
+  display: flex;
+  flex-direction: column;
+}
 
 .Projet_titre{
-  font-size: 58px;
-  font: Alegreya;
-  font-style: bold;
+font-size: 28px;
+font-family: 'Alegreya', serif;
+font-weight: 700;
+color: #ed464d;
+
+}
+
+.Projet_description{
+  font-size: 16px;
+font-family: 'Alegreya', serif;
+  font-style: normal;
+
+}
+
+.Projet_infos{
+  font-size: 16px;
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  color: #ed464d;
 
 }
 
 .Projet_image{
 
+
 }
+
 
 .Pied{
 font-size: 9px;
-font-family: Alegreya/helvetica/sans-serif;
+font-family: 'Alegreya', serif;
+justify-content: center;
 
 }
