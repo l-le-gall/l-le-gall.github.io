@@ -121,14 +121,6 @@ color: #ed464d;
 margin: 0;
 }
 
-.cadre.petit p {
-  font-weight: 400;
-  font-size: 16px;
-  padding: 8px 32px;
-  text-transform: none;
-  text-align: left;
-}
-
 /* Fin des commandes pour la page index*/
 
 /*Mise en page pour les pages projets */
@@ -147,7 +139,6 @@ margin: 0;
 .Projet_photos{
 box-sizing: 30%;
 left: 50px;
-
 margin: auto;
 }
 
@@ -169,7 +160,7 @@ margin: auto;
   margin: auto;
 }
 
-.col1, .col2, .col3, .col4 {
+.col2, .col4 {
   margin-left: 8px;
   margin-right: 8px;
 
@@ -177,7 +168,7 @@ margin: auto;
 
 
 .col2{
-flex-basis: calc(45% - 16px);
+flex-basis: calc(60% - 16px);
 }
 
 
@@ -200,7 +191,7 @@ flex-basis: calc(45% - 16px);
 
 
 .Projet_titre{
-font-size: 28px;
+font-size: 24px;
 font-family: 'Alegreya', serif;
 font-weight: 700;
 color: #ed464d;
@@ -208,28 +199,31 @@ color: #ed464d;
 }
 
 .Projet_description{
-  font-size: 16px;
+  font-size: 14px;
 font-family: 'Alegreya', serif;
   font-style: normal;
 
 }
 
-.Projet_infos{
-  font-size: 16px;
-  font-family: 'Alegreya', serif;
+.cadre.petit p {
   font-weight: 700;
+  font-size: 14px;
+  padding: 8px 32px;
+  text-transform: none;
+  text-align: left;
+  font-family: 'Alegreya', serif;
   color: #ed464d;
-
 }
+
+
 
 .cv{
 
 }
 
 
-.Pied{
+footer{
 font-size: 8px;
 font-family: 'Alegreya', serif;
 justify-content: center;
-
 }
