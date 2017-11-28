@@ -64,12 +64,46 @@ margin-bottom: 10px;
 
 .Projet {
   margin-bottom:16px;
+  position: relative;
+  font-size: 0;
+}
+
+.Projet h3 {
+  color:white;
+  position: absolute;
+  top: 50%;
+  padding: 8px 8px;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.Projet .bloc_titre {
+  opacity: 0;
+  transition: opacity .5s;
+  /*background: rgba(0,0,0,0.3);*/
+  position: absolute;
+  top: 0;
+  left:0;
+  pointer-events: none;
+  bottom: 0;
+  right:0;
+}
+
+.Projet:hover .bloc_titre {
+  opacity: 1;
 }
 
 .cadre {
   position: relative;
   max-width: 400px;
   max-height: auto;
+  opacity: 20%;
 }
 
 .cadre p {
@@ -85,6 +119,14 @@ width: 100%;
 text-align: center;
 color: #ed464d;
 margin: 0;
+}
+
+.cadre.petit p {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 32px;
+  text-transform: none;
+  text-align: left;
 }
 
 /* Fin des commandes pour la page index*/
@@ -109,7 +151,6 @@ left: 50px;
 margin: auto;
 }
 
-
 .Bloc_image_projet{
   width: 25%;
   margin: 0 8px;
@@ -121,7 +162,6 @@ margin: auto;
   flex-direction: column;
 
 }
-
 
 .grille {
   width: 100%;
@@ -135,32 +175,25 @@ margin: auto;
 
 }
 
-.col1{
-flex-basis: calc(25%-16px);
-}
 
 .col2{
-flex-basis: calc(45%-16px);
+flex-basis: calc(45% - 16px);
 }
 
-.col3{
-flex-basis: calc(65%-16px);
-}
 
+.boite {
+  display: flex;
+}
 
 .projet{
   box-sizing: border-box;
-  box-sizing: 30%;
-  left: 50px;
   position: relative;
   width: 500px;
-
 }
 
 .col4{
-  flex-basis: 100%;
-  width: 25%;
-  margin: 0 8px;
+  width: 40%;
+  margin: 0 60px;
   display: flex;
   flex-direction: column;
 }
