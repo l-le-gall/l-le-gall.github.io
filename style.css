@@ -4,6 +4,7 @@ html * {
 
 body{
   font-family: 'Alegreya', serif;
+  margin-bottom: 0px;
 }
 
 img {
@@ -34,14 +35,22 @@ img {
 
 .Onglet {
 
-max-width: 150px;
-max-height: 50px;
+max-width: 125px;
+max-height: 40px;
 
 display: flex;
 flex-direction: column;
 
-margin-bottom: 10px;
+margin-bottom: 20px;
 
+  }
+
+  .trait:hover{
+    opacity: 1;
+  }
+
+  .trait{
+    opacity:1;
   }
 
 
@@ -55,6 +64,8 @@ margin-bottom: 10px;
   margin-left: 300px;
   margin-right: 150px;
   display: flex;
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
 
 .col {
@@ -104,6 +115,7 @@ margin-bottom: 10px;
   max-width: 400px;
   max-height: auto;
   opacity: 20%;
+  margin-top: 2px;
 }
 
 .cadre p {
@@ -169,11 +181,13 @@ margin: auto;
 
 .col2{
 flex-basis: calc(60% - 16px);
+font-size: 11px;
 }
 
 
 .boite {
   display: flex;
+  margin-right: 1px
 }
 
 .projet{
@@ -200,7 +214,7 @@ color: #ed464d;
 
 .Projet_description{
   font-size: 14px;
-font-family: 'Alegreya', serif;
+  font-family: 'Alegreya', serif;
   font-style: normal;
 
 }
@@ -216,14 +230,22 @@ font-family: 'Alegreya', serif;
 }
 
 
-
-.cv{
-
+.bouton {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #ed464d;
+  font-weight: 700;
 }
 
 
-footer{
-font-size: 8px;
-font-family: 'Alegreya', serif;
-justify-content: center;
+.iseeyou{
+  height: 100px;
+  width: auto;
+  margin-right: 50px;
+  margin-bottom: 0px;
+
+}
+
+.iseeyou_bloc{
+  margin-bottom: 0px;
 }
