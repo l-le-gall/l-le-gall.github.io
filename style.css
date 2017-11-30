@@ -187,7 +187,10 @@ font-size: 11px;
 
 .boite {
   display: flex;
-  margin-right: 1px
+}
+
+.boite img {
+
 }
 
 .projet{
@@ -227,6 +230,10 @@ color: #ed464d;
   text-align: left;
   font-family: 'Alegreya', serif;
   color: #ed464d;
+}
+
+.colphoto{
+  flex-basis: (20% - 16px);
 }
 
 
