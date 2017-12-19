@@ -152,6 +152,8 @@ margin: 0;
 box-sizing: 30%;
 left: 50px;
 margin: auto;
+margin-bottom: 10px;
+margin-top: 0px;
 }
 
 .Bloc_image_projet{
@@ -200,10 +202,12 @@ font-size: 11px;
 }
 
 .col4{
-  width: 40%;
   margin: 0 60px;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  margin-left: 42%;
+  flex-basis: calc(30%-16px)
 }
 
 
@@ -234,6 +238,8 @@ color: #ed464d;
 
 .colphoto{
   flex-basis: (20% - 16px);
+  width: 40%;
+  margin: 0 8px;
 }
 
 
@@ -255,4 +261,48 @@ color: #ed464d;
 
 .iseeyou_bloc{
   margin-bottom: 0px;
+}
+
+@media screen and (max-width:1100px){
+
+.cadre p{
+  font-size: 16px;}
+
+}
+
+@media screen and (max-width:970px){
+
+.cadre p{
+  font-size: 12px;}
+
+}
+
+@media screen and (max-width:400px){
+.Projets_groupe{
+
+}
+
+  .col {
+
+}
+
+.Projet h3 {
+  color:#ed464d;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  font-size: 6px;
+
+}
+
+.Projet .bloc_titre {
+  opacity: 0;
+  transition: opacity .5s;
+  /*background: rgba(0,0,0,0.3);*/
+  position: absolute;
+  top: 0;
+  left:0;
+  pointer-events: none;
+  bottom: 0;
+  right:0;
 }
