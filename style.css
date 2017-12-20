@@ -158,6 +158,10 @@ position: relative;
 
 }
 
+.Projet_photos:hover .bloc_titre {
+  filter:blur(2,5);
+}
+
 .Bloc_image_projet{
   width: 25%;
   margin: 0 8px;
