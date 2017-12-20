@@ -278,6 +278,34 @@ color: #ed464d;
   font-style: normal;
 }
 
+.Projet_infos {
+  position: static;
+  transform: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.boite_infos {
+  width: auto;
+
+  border: 6px double #ed464d;
+
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 32px;
+  text-transform: none;
+  text-align: left;
+  font-family: 'Alegreya', serif;
+  color: #ed464d;
+}
+
+.boutonhasard {
+  position: absolute;
+bottom: 0;
+right: 0;
+cursor: url(Visuels/curseur.png), auto;
+}
+
 
 .colphoto{
   flex-basis: (20% - 16px);
@@ -306,33 +334,7 @@ color: #ed464d;
   margin-bottom: 0px;
 }
 
-.Projet_infos {
-  position: static;
-  transform: none;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
 
-.boite_infos {
-  width: auto;
-
-  border: 2px double #ed464d;
-
-  font-weight: 700;
-  font-size: 14px;
-  padding: 8px 32px;
-  text-transform: none;
-  text-align: left;
-  font-family: 'Alegreya', serif;
-  color: #ed464d;
-}
-
-.boutonhasard {
-  position: absolute;
-bottom: 0;
-right: 0;
-cursor: url(Visuels/curseur.png), auto;
-}
 
 @media screen and (max-width:1100px){
 
