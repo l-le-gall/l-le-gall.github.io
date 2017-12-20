@@ -5,6 +5,7 @@ html * {
 body{
   font-family: 'Alegreya', serif;
   margin-bottom: 0px;
+  cursor: url(Visuels/curseur.png), auto;
 }
 
 img {
@@ -12,6 +13,11 @@ img {
   max-height: auto;
 }
 /* Entête début */
+
+a {
+cursor: url(Visuels/curseur.png), auto;
+  color: #ed464d;
+}
 
 
 .Bandeau_onglet_gauche {
@@ -279,17 +285,20 @@ color: #ed464d;
 @media screen and (max-width:970px){
 
 .cadre p{
-  font-size: 12px;}
+  font-size: 11px;}
 
+}
+
+
+.col {
+  width: 50%;
 }
 
 @media screen and (max-width:400px){
-.Projets_groupe{
 
-}
 
   .col {
-
+    width: 100%;
 }
 
 .Projet h3 {
