@@ -7,6 +7,8 @@ body{
   margin-bottom: 0px;
   max-width: 2500px;
   margin: auto;
+  margin-bottom: 0px;
+
 }
 
 img {
@@ -18,6 +20,10 @@ img {
 a {
 cursor: url(Visuels/curseur.png), auto;
 color: #ed464d;
+}
+
+article{
+  bottom: 0px;
 }
 
 .dh {
@@ -336,14 +342,18 @@ cursor: url(Visuels/curseur.png), auto;
   height: 100px;
   width: auto;
   margin-right: 50px;
-  margin-bottom: 0px;
+  bottom: 0px;
 
 }
 
 .iseeyou_bloc{
-  margin-bottom: 0px;
+  bottom: 0px;
+  position: relative;
 }
 
+footer{
+
+}
 
 
 @media screen and (max-width:1100px){
@@ -386,19 +396,30 @@ cursor: url(Visuels/curseur.png), auto;
 
 .Projets_groupe {
   margin: 0px;
+  margin-top: 60px;
+  margin-bottom: 16px;
   }
 
 .Bandeau_onglet_gauche{
-position: static;
-margin-left: 220px;
-margin-top: 0px;
+margin-left: 465px;
+top: 16px;
+display: initial;
+flex-wrap: wrap;
+
+
   }
 
   .Logo {
     position: static;
     display: initial;
-    position: center;
     margin-left: 8px;
+    margin-top: 16px;
+    margin-left: 270px;
+  }
+
+  .iseeyou_bloc{
+    position: static;
+    bottom: 8px;
   }
 
 
@@ -407,6 +428,10 @@ margin-top: 0px;
 
 @media screen and (max-width:450px){
   /*environ mobiles*/
+
+  body{
+    max-width: 95%;
+  }
 
   .mh {
     display: none;
@@ -437,12 +462,21 @@ margin-top: 0px;
 
 .Bandeau_onglet_gauche,
 .Logo {
-  position: static;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700px;
-  display: initial;
-  position: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align-last:center;
+  line-height:12px;
+  margin-left: 100px;
 }
+
+.Logo{
+  margin-bottom: 16px;
+}
+
 
 .Projets_groupe {
   margin: 0;
@@ -464,6 +498,26 @@ margin-top: 0px;
 .cadre p{
   font-size: 14px;}
 }
+}
+
+.col2{
+max-width: 100%;
+}
+
+.col4{
+max-width: 100%
+}
+
+.mentionslegales{
+position: relative;
+bottom: 8px;
+justify-content: flex-end;
+}
+
+.iseeyou_bloc{
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align-last:center;
 }
 
 @media screen and (min-width:2500px){
