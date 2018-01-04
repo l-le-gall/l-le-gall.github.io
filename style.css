@@ -366,6 +366,7 @@ footer{
     margin-left: 250px;
 
 }
+}
 
 @media screen and (max-width:970px){
 
@@ -449,7 +450,6 @@ flex-wrap: wrap;
   left:0;
   font-size: 14px;
   font-weight: 600;
-
 }
 
 .iseeyou{
@@ -481,6 +481,11 @@ flex-wrap: wrap;
 .Projets_groupe {
   margin: 0;
   flex-wrap: wrap;
+}
+
+.col2, .col4 {
+  width: 100%;
+  position: static;
 }
 
 .Projet .bloc_titre {
