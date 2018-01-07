@@ -15,6 +15,7 @@ var pages = [
   'reperage_des_allergenes',
   'sensations',
   'trames',
+  'fete_foraine',
 ];
 
 var pageCourante = function() {
