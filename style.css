@@ -3,7 +3,7 @@ html * {
 }
 
 body{
-  font-family: 'Alegreya', serif;
+ font-family: 'Alegreya', serif;
   margin-bottom: 0px;
   max-width: 2500px;
   margin: auto;
@@ -45,9 +45,6 @@ article{
   z-index: 1;
 }
 
-.Bandeau_onglet_gauche, .Logo{
-
-}
 
 .Onglet {
 
@@ -404,10 +401,12 @@ footer{
 .Bandeau_onglet_gauche{
 margin-left: 465px;
 top: 16px;
-display: initial;
-flex-wrap: wrap;
+position: fixed;
 
+  }
 
+  .Onglet{
+    flex-direction: row;
   }
 
   .Logo {
@@ -525,9 +524,37 @@ justify-content: flex-end;
   text-align-last:center;
 }
 
-@media screen and (min-width:2500px){
-  .Bandeau_onglet_gauche, .Logo{
-    margin-left: 400px;
+@media screen and (min-width:1550px){
+  .col4 {
+    margin-left: 48%;
+    max-width: 300px;
   }
 
 }
+
+@media screen and (min-width:2000px){
+  .col4 {
+    margin-left: 50%;
+    max-width: 400px;
+  }
+
+}
+
+@media screen and (min-width:2500px){
+
+    .Bandeau_onglet_gauche, .Logo{
+      margin-left: 400px;
+    }
+
+    .col2{
+      flex-basis: calc(60% - 16px);
+
+    }
+
+    .col4 {
+
+      max-width: 460px;
+      flex-basis: calc(30% - 16px);
+    }
+
+  }

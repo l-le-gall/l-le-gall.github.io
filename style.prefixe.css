@@ -4,7 +4,7 @@ html * {
 }
 
 body{
-  font-family: 'Alegreya', serif;
+ font-family: 'Alegreya', serif;
   margin-bottom: 0px;
   max-width: 2500px;
   margin: auto;
@@ -46,9 +46,6 @@ article{
   z-index: 1;
 }
 
-.Bandeau_onglet_gauche, .Logo{
-
-}
 
 .Onglet {
 
@@ -321,7 +318,7 @@ font-size: 11px;
   height: 100%;
   -ms-flex-preferred-size: calc(30%-16px);
       flex-basis: calc(30%-16px);
-  max-width: 320px;
+  max-width: 300px;
 }
 
 
@@ -454,11 +451,15 @@ footer{
 .Bandeau_onglet_gauche{
 margin-left: 465px;
 top: 16px;
-display: initial;
--ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+position: fixed;
 
+  }
 
+  .Onglet{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 
   .Logo {
@@ -593,9 +594,39 @@ bottom: 8px;
   text-align-last:center;
 }
 
-@media screen and (min-width:2500px){
-  .Bandeau_onglet_gauche, .Logo{
-    margin-left: 400px;
+@media screen and (min-width:1550px){
+  .col4 {
+    margin-left: 48%;
+    max-width: 300px;
   }
 
 }
+
+@media screen and (min-width:2000px){
+  .col4 {
+    margin-left: 50%;
+    max-width: 400px;
+  }
+
+}
+
+@media screen and (min-width:2500px){
+
+    .Bandeau_onglet_gauche, .Logo{
+      margin-left: 400px;
+    }
+
+    .col2{
+      -ms-flex-preferred-size: calc(60% - 16px);
+          flex-basis: calc(60% - 16px);
+
+    }
+
+    .col4 {
+
+      max-width: 460px;
+      -ms-flex-preferred-size: calc(30% - 16px);
+          flex-basis: calc(30% - 16px);
+    }
+
+  }
