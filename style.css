@@ -268,7 +268,7 @@ font-size: 11px;
   display: flex;
   flex-direction: column;
   position: fixed;
-  margin-left: 45%;
+  margin-left: 47%;
   height: 100%;
   flex-basis: calc(30%-16px);
   max-width: 300px;
@@ -299,7 +299,7 @@ margin-bottom: 12px;
 }
 
 .boite_infos {
-  width: auto;
+  width: fit-content;
 
   border: 6px double #ed464d;
 
