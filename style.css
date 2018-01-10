@@ -294,11 +294,18 @@ font-size: 11px;
 
 }
 
+.livre_infos{
+width: 120px;
+z-index: -1;
+margin-bottom: 8px;
+margin-left: 40px;
+margin-top: 80px;
+}
+
 .box_infos{
 border: 6px double #ed464d;
 background: white;
 padding: 8px 32px;
-margin-top: 80px;
 opacity: 0;
 }
 
@@ -359,6 +366,7 @@ position: absolute;
 bottom: 0;
 right: 0;
 cursor: url(Visuels/curseur.png), auto;
+max-width: 170px;
 }
 
 
@@ -548,11 +556,11 @@ position: fixed;
 .cadre p{
   font-size: 14px;}
 }
-}
 
 .box_infos{
   opacity: 1;
 }
+
 
 .mentionslegales{
 position: relative;
@@ -564,6 +572,8 @@ justify-content: flex-end;
   flex-direction: column;
   flex-wrap: wrap;
   text-align-last:center;
+}
+
 }
 
 @media screen and (min-width:1550px){
