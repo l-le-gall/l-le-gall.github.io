@@ -62,10 +62,6 @@ margin-bottom: 20px;
 .mentionslegales {
   font-size: 10px;
   color: #ed464d;
-
-  position: fixed;
-  bottom: 0;
-  right: 120px;
 }
 
 
@@ -257,12 +253,11 @@ position: relative;
 .col2, .col4 {
   margin-left: 8px;
   margin-right: 8px;
-
 }
 
 
 .col2{
-flex-basis: calc(75% - 16px);
+flex-basis: calc(72% - 16px);
 font-size: 11px;
 }
 
@@ -298,7 +293,7 @@ font-size: 11px;
 width: 120px;
 z-index: -1;
 margin-bottom: 8px;
-margin-left: 40px;
+margin-left: 20px;
 margin-top: 80px;
 }
 
@@ -313,6 +308,7 @@ opacity: 0;
   opacity: 1;
   transition: opacity .5s;
 }
+
 
 
 .Projet_titre{
@@ -389,13 +385,13 @@ max-width: 170px;
   height: 100px;
   width: auto;
   margin-right: 50px;
-  bottom: 0px;
+  margin-bottom: 0px;
 
 }
 
 .iseeyou_bloc{
-  bottom: 0px;
   position: relative;
+  margin: 0px;
 }
 
 footer{
@@ -433,8 +429,8 @@ footer{
     height: 80px;
 
 }
-
-@media screen and (max-width:800px){
+}
+@media screen and (max-width:800px) {
   /*environ trablette*/
 .cadre p{
   font-size: 16px;}
@@ -452,7 +448,6 @@ footer{
 margin-left: 465px;
 top: 16px;
 position: fixed;
-
   }
 
   .Onglet{
@@ -472,8 +467,6 @@ position: fixed;
     bottom: 8px;
   }
 
-
-
 }
 
 @media screen and (max-width:450px){
@@ -491,6 +484,35 @@ position: fixed;
     width: 100%;
 }
 
+  .LienAccueil {
+    display: block;
+    text-align: center;
+  }
+  .Bandeau_onglet_gauche {
+    width: 100%;
+    position: static;
+    margin: 0;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .Onglet {
+    margin: 0 16px;
+  }
+
+  .boutonhasard {
+  position: static;
+  margin: 0;
+  margin-top: 16px;
+  }
+
+  .Logo {
+    margin: auto;
+  }
+
+
 .Projet h3 {
   color:#ed464d;
   width: 100%;
@@ -505,27 +527,11 @@ position: fixed;
   height: auto;
   position: center;
 }
+
 .dh {
   display: initial;
+  color:#ed464d;
 }
-
-.Bandeau_onglet_gauche,
-.Logo {
-  font-size: 18px;
-  font-weight: 700px;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align-last:center;
-  line-height:12px;
-  margin-left: 100px;
-}
-
-.Logo{
-  margin-bottom: 16px;
-}
-
 
 .Projets_groupe {
   margin: 0;
@@ -535,10 +541,16 @@ position: fixed;
 .col2, .col4 {
   width: 100%;
   position: static;
+  flex-basis: 100%;
+
 }
 
 .col4{
   margin: 0 0 0 0;
+}
+
+.livre_infos {
+  margin-top: 16px;
 }
 
 .Projet .bloc_titre {
@@ -557,9 +569,6 @@ position: fixed;
   font-size: 14px;}
 }
 
-.box_infos{
-  opacity: 1;
-}
 
 
 .mentionslegales{
