@@ -9,7 +9,6 @@ body{
   max-width: 2500px;
   margin: auto;
   margin-bottom: 0px;
-
 }
 
 img {
@@ -46,7 +45,6 @@ article{
   z-index: 1;
 }
 
-
 .Onglet {
 
 max-width: 125px;
@@ -56,15 +54,36 @@ display: flex;
 flex-direction: column;
 
 margin-bottom: 20px;
-
   }
 
 .mentionslegales {
-  font-size: 10px;
+  font-size: 8px;
   color: #ed464d;
+  display: flex;
+  align-items:flex-end;
+  order:-1;
+  margin-left: 0px;
+margin-right: 140px;
 }
 
+.slideshow {
+  margin-top: 80px;
+  position: relative;
+}
 
+.slideshow > div {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+}
+
+.slideshow > div {
+      position: absolute;
+      top: 0px;
+      height: 100%;
+}
 
 /* Fin entête */
 
@@ -82,10 +101,9 @@ margin-bottom: 20px;
 
 .clique {
   max-width: 120px;
-  margin-left: 45%;
-  margin-top: 5%;
+  margin-left: 72%;
   position: fixed;
-
+  margin-top: -45px;
 }
 
 .image_prez{
@@ -120,7 +138,6 @@ margin-bottom: 20px;
   transform: translate(-50%,-50%);
   text-transform: uppercase;
   font-weight: 400;
-
 }
 
 .Projet .bloc_titre {
@@ -183,7 +200,6 @@ margin: 0;
   margin-right: 200px;
 
   flex-direction: column;
-
 }
 
 .Projet_photos{
@@ -193,7 +209,6 @@ margin: auto;
 margin-bottom: 10px;
 margin-top: 0px;
 position: relative;
-
 }
 
 .Projet_photos h3 {
@@ -227,10 +242,6 @@ position: relative;
   opacity: 1;
 }
 
-.Projet_photos:hover img {
-  filter:blur(2,5);
-}
-
 
 .Bloc_image_projet{
   width: 25%;
@@ -241,7 +252,6 @@ position: relative;
 
   display: flex;
   flex-direction: column;
-
 }
 
 .grille {
@@ -267,7 +277,6 @@ font-size: 11px;
 }
 
 .boite img {
-
 }
 
 .projet{
@@ -286,7 +295,6 @@ font-size: 11px;
   margin-right: 60px;
   height: 100%;
   flex-basis: calc(20%-16px);
-
 }
 
 .livre_infos{
@@ -309,15 +317,12 @@ opacity: 0;
   transition: opacity .5s;
 }
 
-
-
 .Projet_titre{
 font-size: 14px;
 font-family: 'Open-Sans', sans-serif;
 font-weight: 700;
 color: #ed464d;
 margin-bottom: 10px;
-
 }
 
 .Projet_description{
@@ -380,23 +385,19 @@ max-width: 170px;
   font-weight: 700;
 }
 
-
 .iseeyou{
   height: 100px;
   width: auto;
-  margin-right: 50px;
-  margin-bottom: 0px;
-
+  display: flex;
 }
 
-.iseeyou_bloc{
-  position: relative;
-  margin: 0px;
+footer {
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  margin-left: 60px;
 }
 
-footer{
-
-}
 
 
 @media screen and (max-width:1100px){
@@ -407,15 +408,14 @@ footer{
   .Projets_groupe {
     margin-right: 80px;
     margin-left: 250px;
-
 }
+
 }
 
 @media screen and (max-width:970px){
 
 .cadre p{
   font-size: 11px;}
-
 
 .col {
   width: 50%;
@@ -427,9 +427,9 @@ footer{
   }
   .iseeyou{
     height: 80px;
+}
+}
 
-}
-}
 @media screen and (max-width:800px) {
   /*environ trablette*/
 .cadre p{
@@ -488,6 +488,7 @@ position: fixed;
     display: block;
     text-align: center;
   }
+
   .Bandeau_onglet_gauche {
     width: 100%;
     position: static;
@@ -495,7 +496,6 @@ position: fixed;
     margin-top: 16px;
     display: flex;
     justify-content: center;
-
   }
 
   .Onglet {
@@ -542,7 +542,6 @@ position: fixed;
   width: 100%;
   position: static;
   flex-basis: 100%;
-
 }
 
 .col4{
