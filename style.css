@@ -500,6 +500,7 @@ position: fixed;
 
   .Onglet {
     margin: 0 16px;
+      margin-bottom: 16px;
   }
 
   .boutonhasard {
@@ -568,19 +569,12 @@ position: fixed;
   font-size: 14px;}
 }
 
-
-
 .mentionslegales{
 position: relative;
 bottom: 8px;
 justify-content: flex-end;
 }
 
-.iseeyou_bloc{
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align-last:center;
-}
 
 }
 
