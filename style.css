@@ -34,14 +34,14 @@ article{
     max-height: 500px;
     top: 300px;
     position: fixed;
-    left: 60px;
+    left: 5%;
 }
 
 .Logo {
   position: fixed;
   width: 150px;
   top: 80px;
-  left: 60px;
+  left: 5%;
   z-index: 1;
 }
 
@@ -391,6 +391,12 @@ max-width: 170px;
   display: flex;
 }
 
+/*.instagram{
+  margin-top: 30px;
+  margin-left: 8px;
+  height:30px;
+}*/
+
 footer {
   bottom: 0;
   left: 0;
@@ -596,12 +602,10 @@ justify-content: flex-end;
 
 @media screen and (min-width:2500px){
 
-    .Bandeau_onglet_gauche, .Logo{
-      margin-left: 400px;
-    }
-
     .col2{
-      flex-basis: calc(60% - 16px);
+      flex-basis: calc(60% - 25px);
+      max-width: 1000px;
+      margin-left: 200px;
     }
 
     .col4 {
@@ -610,3 +614,16 @@ justify-content: flex-end;
     }
 
   }
+/*
+.Projet_titre{
+  font-size: 25px;
+}
+
+
+.Projet_description{
+  font-size:20px;
+}
+
+  .iseeyou{
+    height: 200px;
+  } */
