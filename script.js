@@ -16,6 +16,7 @@ var pages = [
   'sensations',
   'trames',
   'fete_foraine',
+  'caracteres',
 ];
 
 var pageCourante = function() {
