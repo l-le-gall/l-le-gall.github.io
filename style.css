@@ -128,7 +128,7 @@ article {
   font-size: 0;
 }
 
-.Projet h3 {
+.Projet h2 {
   color: white;
   position: absolute;
   top: 50%;
@@ -212,7 +212,7 @@ height: 100%;
   position: relative;
 }
 
-.Projet_photos h3 {
+.Projet_photos h2 {
   color: white;
   position: absolute;
   top: 50%;
@@ -490,7 +490,7 @@ footer {
   .Logo {
     margin: auto;
   }
-  .Projet h3 {
+  .Projet h2 {
     color: #ed464d;
     width: 100%;
     top: 100%;

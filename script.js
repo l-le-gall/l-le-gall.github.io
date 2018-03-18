@@ -17,6 +17,7 @@ var pages = [
   'trames',
   'fete_foraine',
   'caracteres',
+  'perruquier',
 ];
 
 var pageCourante = function() {
