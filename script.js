@@ -17,6 +17,7 @@ var pages = [
   'fete_foraine',
   'caracteres',
   'perruquier',
+  'mee_and_mee',
 ];
 
 var pageCourante = function() {
