@@ -18,6 +18,7 @@ var pages = [
   'caracteres',
   'perruquier',
   'mee_and_mee',
+  'exterieurs_a_vivre',
 ];
 
 var pageCourante = function() {
