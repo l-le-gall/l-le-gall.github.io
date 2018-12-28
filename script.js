@@ -1,7 +1,6 @@
 var boutonhasard = document.querySelector('.boutonhasard');
 
 var pages = [
-  'diana_baby',
   'creatures_sociales',
   'culte_image',
   'excoffon',
