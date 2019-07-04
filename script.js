@@ -6,18 +6,21 @@ var pages = [
   'excoffon',
   'gatsby',
   'horoscope',
-  'ma_maison',
   'mem',
   'moirage',
-  'opera',
   'reperage_des_allergenes',
   'sensations',
-  'trames',
   'fete_foraine',
   'caracteres',
   'perruquier',
   'mee_and_mee',
   'exterieurs_a_vivre',
+  'baigneuses'
+  'a_distance'
+  'lisbonne'
+  'manipulations_interfaces'
+  'memoire'
+  'nomo'
 ];
 
 var pageCourante = function() {
